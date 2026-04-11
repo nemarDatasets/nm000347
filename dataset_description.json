@@ -1,5 +1,5 @@
 {
-  "Name": "Shi et al. 2025 — EEG dataset",
+  "Name": "Shi et al. 2025 — HEFMI-ICH: a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface in intracerebral hemorrhage",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
