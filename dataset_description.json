@@ -23,7 +23,7 @@
   "ReferencesAndLinks": [
     "https://figshare.com/articles/dataset/28955456"
   ],
-  "DatasetDOI": "doi:10.1038/s41597-025-06100-7",
+  "DatasetDOI": "10.82901/nemar.nm000347",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -36,6 +36,9 @@
     {
       "DOI": "10.1038/s41597-025-06100-7",
       "URL": "https://figshare.com/articles/dataset/28955456"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-025-06100-7"
     }
   ],
   "Keywords": [
