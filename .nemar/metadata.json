@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Jian Shi": {},
+    "Danyang Chen": {},
+    "Xingwei Zhao": {},
+    "Zhixian Zhao": {},
+    "Shengjie Li": {},
+    "Yeguang Xu": {},
+    "Tao Ding": {},
+    "Zheng Zhu": {},
+    "Peng Zhang": {},
+    "Qing Ye": {},
+    "Yingxin Tang": {},
+    "Ping Zhang": {},
+    "Bo Tao": {},
+    "Zhouping Tang": {
+      "orcid": "0000-0002-4153-8590"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-06100-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000347",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Shi et al. 2025 — HEFMI-ICH: a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface in intracerebral hemorrhage",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.8 GB (99 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "HEFMI-ICH is a hybrid EEG-fNIRS motor imagery dataset designed for brain-computer interface applications in intracerebral hemorrhage rehabilitation. The dataset comprises 37 participants (17 healthy controls and 20 ICH patients) performing two-class hand motor imagery tasks (left and right grasping) across multiple sessions. With 32-channel EEG recordings at 256 Hz and approximately 3,330 trials, this dataset supports the development and evaluation of BCI systems for clinical stroke rehabilitation.",
+  "methods_description": "EEG data were acquired using a g.HIamp amplifier (g.tec medical engineering GmbH) with 32 channels at 256 Hz sampling rate using a biosemi32 montage. Participants performed cued motor imagery tasks with 2-second visual cues (directional arrows) followed by 10-second imagery periods. The experimental protocol included 2-class imagery (left/right hand grasping) with synchronous, offline feedback. Data were preprocessed with frequency band filtering (0.5-30 Hz) and spatially filtered using Common Spatial Patterns (CSP) and Filter Bank CSP (FBCSP) methods.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "intracerebral hemorrhage",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006442"
+    },
+    {
+      "term": "stroke rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "clinical neuroimaging"
+    },
+    {
+      "term": "rehabilitation"
+    },
+    {
+      "term": "BCI applications"
+    }
+  ],
+  "source_hash": "7e924d1eb057d78748a845f44342ab168ef196399bb9db3912db237e42968eaa"
+}
