@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Shi et al. 2025 — HEFMI-ICH: a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface in intracerebral hemorrhage",
-  "description": "HEFMI-ICH is a hybrid EEG-fNIRS motor imagery dataset designed for brain-computer interface applications in intracerebral hemorrhage rehabilitation. The dataset comprises 37 participants (17 healthy controls and 20 ICH patients) performing 2-class hand motor imagery tasks (left and right hand grasping) across multiple sessions. With 32-channel EEG recordings at 256 Hz and 3,330 trials, this dataset supports the development and evaluation of BCI systems for clinical stroke rehabilitation.",
-  "methods_description": "EEG data were acquired using a g.HIamp amplifier (g.tec medical engineering GmbH) with 32 channels arranged in a biosemi32 montage at 256 Hz sampling rate. Participants performed motor imagery tasks cued by directional arrows and auditory beeps, with a 2-second cue period followed by 10 seconds of imagery. The study included 37 subjects (17 healthy, 20 ICH patients) across 3 sessions per subject, with 30 trials per session. Data were preprocessed and bandpass filtered between 0.5-30 Hz. fNIRS data were acquired concurrently with EEG to provide complementary hemodynamic measurements during motor imagery tasks.",
+  "description": "HEFMI-ICH is a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface research in intracerebral hemorrhage (ICH). It includes 37 participants (17 healthy, 20 ICH patients) who performed two-class left/right hand motor imagery across up to three sessions. The dataset supports development of BCI-based rehabilitation approaches, with pre-epoched, preprocessed 32-channel EEG recordings.",
+  "methods_description": "32-channel EEG was recorded with a g.HIamp amplifier at 256 Hz. Each trial presented a directional arrow cue with an auditory beep, followed by 10 s of left- or right-hand grasping motor imagery, without feedback. Data were preprocessed with a 0.5-30 Hz band-pass filter. Benchmark classifiers included CSP+SVM, FBCSP+SVM, EEGBaseNet and TF+SVM.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,28 +29,21 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "intracerebral hemorrhage",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006442"
-    },
-    {
-      "term": "stroke rehabilitation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
-    },
-    {
       "term": "fNIRS"
     },
     {
-      "term": "hybrid neuroimaging"
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Intracerebral Hemorrhage"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
       "term": "rehabilitation"
@@ -71,6 +64,16 @@
       "identifier": "https://nemar.org/dataset/nm000347",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -87,7 +90,7 @@
     "eeg"
   ],
   "sizes": [
-    "6.9 GB (197 files)"
+    "6.42 GB (197 files)"
   ],
   "formats": [
     ".bdf",
