@@ -8,8 +8,8 @@
  "license": "CC-BY-NC-ND-4.0",
  "doi": "10.1038/s41597-025-06100-7",
  "naming": "upstream_filenames_restored",
- "n_files": 98,
- "total_bytes": 4127895898,
+ "n_files": 99,
+ "total_bytes": 4128037949,
  "files": [
   {
    "file": "sub01_1_epo.mat",
@@ -598,7 +598,24 @@
    "bytes": 42112698,
    "sha256": "4a105279d141e23c50272f35bcf3dc98884a97baee1a0b0fd1be41252964a5fa",
    "subject": "37"
+  },
+  {
+   "file": "figshare_filelist_28955456.json",
+   "bytes": 142051,
+   "sha256": "62ca475469346dc40989dbbc0c7ce48f202d66aa63f033b7e1f6ebee91e952d6",
+   "subject": null,
+   "url": "https://api.figshare.com/v2/articles/28955456/files",
+   "how": "loader index: json.dump(moabb.datasets.download.fs_get_file_list(28955456)), the file list HefmiIch2025 caches at its cache root and reads before calling the figshare API; retrieved 2026-10-16"
   }
  ],
- "n_subjects_recorded": 37
+ "n_subjects_recorded": 37,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.4",
+   "added_files": 1,
+   "added_bytes": 142051,
+   "note": "Added figshare_filelist_28955456.json: json.dump(moabb.datasets.download.fs_get_file_list(28955456)), the file list HefmiIch2025 caches at its cache root (MNE-hefmiich2025-data/, the upstream_cache_root of this deposit) instead of calling https://api.figshare.com/v2/articles/28955456/files. Retrieved 2026-10-16 from the figshare API: 494 files. The loader's selection (names ending _epo.mat above 40 MB, ordered by figshare id, a new subject at each 1_epo.mat) gives 37 subjects / 98 files, each present in this deposit as subXX_N_epo.mat with the same size and subject. Subject-less entry: shared by every subject's load."
+  }
+ ]
 }
