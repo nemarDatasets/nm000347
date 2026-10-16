@@ -1,0 +1,5 @@
+1.0.4 2026-10-16
+  - sourcedata: added figshare_filelist_28955456.json (142,051 bytes), the figshare file list of article 28955456
+    (api.figshare.com/v2/articles/28955456/files) as moabb.datasets.HefmiIch2025 caches it. The loader reads it
+    first to map the figshare files to subXX_N_epo.mat; listed without a subject.
+    No existing file changed; the BIDS tree is unchanged.
