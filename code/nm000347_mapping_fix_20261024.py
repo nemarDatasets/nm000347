@@ -400,7 +400,7 @@ with the MOABB `HefmiIch2025` loader of that time, which built participants from
 the EEG epoch files by figshare file id (the upload order) and started a new participant at every file named
 `1_epo.mat`. The figshare file names carry no participant (every participant's files are `1_epo.mat`, `2_epo.mat`,
 `3_epo.mat`) and the upload order is shuffled, so 23 of the 37 participants of versions <= 1.0.4 mixed sessions of 2 to
-4 different people, 31 of the 37 real people were split across 2 or 3 participants, and some participants had up to 6
+5 different people, 31 of the 37 real people were split across 2 or 3 participants, and some participants had up to 6
 sessions although nobody has more than 3. Only `sub-8` of version 1.0.4 was one complete person (now `sub-25`).
 
 This version assigns every file by the depositor's own folder, published in the figshare article record
@@ -463,7 +463,7 @@ write_text(REPO / "dataset_description.json", json.dumps(dd, indent=2, ensure_as
 changes = (REPO / "CHANGES").read_text()
 entry = f"""Unreleased ({BRANCH_NOTE}, prepared {DATE})
   - Participant/session mapping corrected (see README, "Correction (2026-10-24)"). Versions <= 1.0.4 assigned the 98
-    recordings to participants by figshare upload order, mixing sessions of 2-4 people in 23 of 37 participants.
+    recordings to participants by figshare upload order, mixing sessions of 2-5 people in 23 of 37 participants.
     Recordings now follow the depositor's folders: sub-01..sub-17 healthy controls (Normals/subject1-17),
     sub-18..sub-37 ICH patients (Patients/subject1-20), ses-01..03 = 1_epo.mat..3_epo.mat (consecutive same-day runs).
   - All 98 recordings and 98 source files renamed only (same bytes and git-annex keys); scans.tsv gains source_file,

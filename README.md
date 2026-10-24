@@ -13,7 +13,7 @@ with the MOABB `HefmiIch2025` loader of that time, which built participants from
 the EEG epoch files by figshare file id (the upload order) and started a new participant at every file named
 `1_epo.mat`. The figshare file names carry no participant (every participant's files are `1_epo.mat`, `2_epo.mat`,
 `3_epo.mat`) and the upload order is shuffled, so 23 of the 37 participants of versions <= 1.0.4 mixed sessions of 2 to
-4 different people, 31 of the 37 real people were split across 2 or 3 participants, and some participants had up to 6
+5 different people, 31 of the 37 real people were split across 2 or 3 participants, and some participants had up to 6
 sessions although nobody has more than 3. Only `sub-8` of version 1.0.4 was one complete person (now `sub-25`).
 
 This version assigns every file by the depositor's own folder, published in the figshare article record

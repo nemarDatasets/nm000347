@@ -1,6 +1,6 @@
 Unreleased (branch fix-20261024-mapping, prepared 2026-10-24)
   - Participant/session mapping corrected (see README, "Correction (2026-10-24)"). Versions <= 1.0.4 assigned the 98
-    recordings to participants by figshare upload order, mixing sessions of 2-4 people in 23 of 37 participants.
+    recordings to participants by figshare upload order, mixing sessions of 2-5 people in 23 of 37 participants.
     Recordings now follow the depositor's folders: sub-01..sub-17 healthy controls (Normals/subject1-17),
     sub-18..sub-37 ICH patients (Patients/subject1-20), ses-01..03 = 1_epo.mat..3_epo.mat (consecutive same-day runs).
   - All 98 recordings and 98 source files renamed only (same bytes and git-annex keys); scans.tsv gains source_file,
