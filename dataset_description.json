@@ -30,6 +30,12 @@
       "Name": "moabb",
       "Description": "Mother of All BCI Benchmarks",
       "Version": "1.5.0"
+    },
+    {
+      "Name": "nm000347 participant-mapping correction",
+      "Version": "2026-10-24",
+      "Description": "Recordings and source files re-assigned to their true participants and sessions by renaming only (no signal changed): sub-01..sub-17 = figshare epo_data/Normals/EEG/subject1-17 (healthy controls), sub-18..sub-37 = epo_data/Patients/EEG/subject1-20 (ICH patients), ses-01..03 = the depositor's 1_epo.mat..3_epo.mat. Versions <= 1.0.4 mixed sessions of different people (README, section 'Correction (2026-10-24)'); the sessions of a participant are consecutive runs of one visit.",
+      "CodeURL": "https://github.com/nemarDatasets/nm000347/blob/fix-20261024-mapping/code/nm000347_mapping_fix_20261024.py"
     }
   ],
   "SourceDatasets": [
