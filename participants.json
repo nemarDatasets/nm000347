@@ -14,7 +14,7 @@
         }
     },
     "hand": {
-        "Description": "Handedness of the participant",
+        "Description": "Handedness of the participant (all participants were right-handed according to the paper).",
         "Levels": {
             "R": "right",
             "L": "left",
@@ -29,14 +29,24 @@
         "Description": "Body height of the participant",
         "Units": "m"
     },
-    "Description": "Participant demographics (mixed (17 healthy, 20 ICH patients)).",
+    "Description": "Participant list (17 healthy controls, 20 ICH patients). Age, sex, weight and height per participant are not released; the paper reports 8 female / 29 male, aged 20-65.",
     "group": {
-        "Description": "Group the participant belonged to (e.g., healthy, patients)"
+        "Description": "Participant group, from the depositor's folder (Normals = healthy controls, Patients = ICH patients).",
+        "Levels": {
+            "healthy": "healthy control (figshare epo_data/Normals/EEG/subject1-17 = sub-01..sub-17)",
+            "patient": "intracerebral hemorrhage (ICH) patient (figshare epo_data/Patients/EEG/subject1-20 = sub-18..sub-37)"
+        }
     },
     "species": {
         "Description": "Species of the participant (binomial name)"
     },
     "bci_experience": {
         "Description": "BCI experience level of the participant"
+    },
+    "source_folder": {
+        "Description": "The depositor's folder holding this participant's EEG epoch files in figshare article 28955456 v4 (folder_structure of the article record); the files are under sourcedata/ at the same path."
+    },
+    "n_sessions": {
+        "Description": "Number of sessions (consecutive runs of one visit) released for this participant."
     }
 }
