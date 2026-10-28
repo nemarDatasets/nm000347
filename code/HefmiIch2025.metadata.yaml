@@ -1,3 +1,4 @@
+# Edited 2026-10-24 (participant-mapping correction): study_design sessions, n_trials, trials_context.
 _dataset:
   class: HefmiIch2025
   code: HefmiIch2025
@@ -59,8 +60,8 @@ cross_validation:
   - within_subject
 data_processed: true
 data_structure:
-  n_trials: 3330
-  trials_context: 37 subjects x ~3 sessions x 30 trials = ~3330
+  n_trials: 2940
+  trials_context: 98 sessions x 30 trials = 2940
 documentation:
   country: CN
   data_url: https://figshare.com/articles/dataset/28955456
@@ -99,8 +100,7 @@ experiment:
   - visual
   - auditory
   stimulus_type: directional arrow + auditory beep
-  study_design: 2-class hand MI (left/right grasping) for ICH rehabilitation. 17 healthy + 20 ICH patients, 1-6 sessions per
-    subject.
+  study_design: 2-class hand MI (left/right grasping) for ICH rehabilitation. 17 healthy + 20 ICH patients, 1-3 sessions per participant (98 in total; consecutive runs of one visit).
   synchronicity: synchronous
   trial_duration: 27.0
 file_format: MAT (pre-epoched)
