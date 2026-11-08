@@ -1,0 +1,18 @@
+{
+	"Description": "Scans file listing data acquisitions.",
+	"filename": {
+		"Description": "Relative path to the data file."
+	},
+	"acq_time": {
+		"Description": "Acquisition date and time."
+	},
+	"source_file": {
+		"Description": "Original file this recording was converted from (byte-identical copy under sourcedata/, at the depositor's path in figshare article 28955456 v4)."
+	},
+	"figshare_file_id": {
+		"Description": "figshare file id of source_file (article 28955456, version 4)."
+	},
+	"previous_filename": {
+		"Description": "Path of this same recording (same bytes) in versions <= 1.0.4 of this deposit, which assigned recordings to the wrong participants; see the README section 'Correction (2026-10-24)'."
+	}
+}
