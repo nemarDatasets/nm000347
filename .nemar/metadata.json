@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Shi et al. 2025 — HEFMI-ICH: a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface in intracerebral hemorrhage",
-  "description": "HEFMI-ICH is a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface research in intracerebral hemorrhage (ICH). It includes 37 participants (17 healthy, 20 ICH patients) who performed two-class left/right hand motor imagery across multiple sessions. The dataset supports development of BCI-based rehabilitation approaches for stroke patients.",
-  "methods_description": "32-channel EEG was recorded with a g.HIamp amplifier at 256 Hz. Participants performed left- or right-hand grasping motor imagery after a visual arrow cue with an auditory beep, with roughly 30 trials per session over up to three sessions. Data were preprocessed with a 0.5-30 Hz band-pass filter, and baseline classifiers (CSP+SVM, FBCSP+SVM, EEGBaseNet, TF+SVM) were evaluated with 5-fold within-subject cross-validation.",
+  "description": "HEFMI-ICH is a hybrid EEG-fNIRS motor imagery dataset for brain-computer interface research in intracerebral hemorrhage. This BIDS release contains 32-channel EEG from 37 participants (17 healthy controls and 20 ICH patients) performing left- and right-hand motor imagery across 98 sessions. It is intended for BCI-based rehabilitation research and benchmarking of motor imagery decoding methods.",
+  "methods_description": "EEG was recorded at 256 Hz from 32 channels with a g.HIamp amplifier (g.tec). Participants performed a two-class (left/right hand grasping) motor imagery task, cued by a directional arrow and an auditory beep. Each session comprised 30 trials (15 per class), with a 10 s imagery period. Sessions were consecutive runs recorded on the same day.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,9 +41,7 @@
       "term": "intracerebral hemorrhage"
     },
     {
-      "term": "Stroke Rehabilitation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071939"
+      "term": "stroke rehabilitation"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -99,9 +97,10 @@
     ".json",
     ".mat",
     ".md",
+    ".py",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "bb02bea1056a11912501dd3923abe8acd7f1aa52566bf4c20e47ca6e3195b31f"
+  "source_hash": "c985a17c31e13aa42ed3d57d6ce172822c24aaef293b32ba38dbe967da5850ff"
 }
